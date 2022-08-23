@@ -16,7 +16,7 @@ class _LoginPageState extends State<LoginPage> {
       body: Stack(
         children: <Widget>[
 
-          Container(
+          Container( // contenant le Welcome to RedTech
             padding: EdgeInsets.fromLTRB(80,100, 0, 0),
             child: Stack(
               children: <Widget>[
@@ -46,7 +46,7 @@ class _LoginPageState extends State<LoginPage> {
           ),
 
 
-          Container(
+          Container(  // contenant le logo
             child: Align(
               alignment: Alignment.center,
               child: Image.asset('assets/images/logo.png',
@@ -56,7 +56,8 @@ class _LoginPageState extends State<LoginPage> {
             ),
           ),
 
-          Container(
+          
+          Container(  // contenant le bouton login
             child: Align(
               alignment: Alignment.bottomCenter,
               child: ElevatedButton(
